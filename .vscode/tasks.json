@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/API_APP_CEMIG/API_APP_CEMIG.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
